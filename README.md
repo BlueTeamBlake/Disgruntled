@@ -28,7 +28,7 @@ cat /var/log/auth.log | grep "install"
 ```bash
 cat /var/log/auth.log | grep "install"
 ```
-
+![installed package](Task1_answer.png)
 > **Answer:** `/home/cybert`
 
 ---
@@ -38,7 +38,7 @@ cat /var/log/auth.log | grep "install"
 ```bash
 cat /var/log/auth.log | grep "adduser"
 ```
-
+![user added](task2_q1_answer.png)
 > **Answer:** `it-admin`
 
 ---
