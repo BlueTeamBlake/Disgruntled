@@ -1,4 +1,4 @@
-# 🐧 TryHackMe: CyberT Insider Threat – Linux Forensics Investigation
+# 🐧 Disgruntled: Insider Threat – Linux Forensics Investigation
 
 ## 🧠 Scenario
 
