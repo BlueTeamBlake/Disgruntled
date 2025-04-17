@@ -21,6 +21,7 @@ cat /var/log/auth.log | grep "install"
 
 
 >*Explanation:* checked `/var/log/auth.log` for commands involving package installation. Since `apt` is usually used with `sudo`, we searched for the term `install
+
 > **Answer:** `/usr/bin/apt install dokuwiki`
 
 ---
